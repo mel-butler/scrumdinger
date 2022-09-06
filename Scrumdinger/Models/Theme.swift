@@ -6,10 +6,9 @@
 //
 
 import SwiftUI
-// SwiftUI treats colors as View instances
+//Swift UI treats colors as view instances
 
-enum Theme: String{
-    
+enum Theme: String {
     case bubblegum
     case buttercup
     case indigo
@@ -29,7 +28,7 @@ enum Theme: String{
     
     var accentColor: Color {
         switch self {
-        case .bubblegum, .buttercup, .lavender, .orange, .periwinkle, .poppy, .seafoam, .sky, .tan, .teal, .yellow : return .black
+        case .bubblegum, .buttercup, .lavender, .orange, .periwinkle, .poppy, .seafoam, .sky, .tan, .teal, .yellow: return .black
         case .indigo, .magenta, .navy, .oxblood, .purple: return .white
         }
     }
