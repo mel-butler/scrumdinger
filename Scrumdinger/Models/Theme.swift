@@ -8,7 +8,7 @@
 import SwiftUI
 //Swift UI treats colors as view instances
 
-enum Theme: String, CaseIterable, Identifiable {
+enum Theme: String, CaseIterable, Identifiable, Codable {
     case bubblegum
     case buttercup
     case indigo
